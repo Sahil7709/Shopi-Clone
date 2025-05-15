@@ -19,7 +19,7 @@ const MyOrders = () => {
               className="border rounded-lg shadow hover:shadow-lg transition duration-200 p-4"
             >
               <img
-                src={order.image}
+                src={order.images}
                 alt={order.title}
                 className="w-full h-48 object-cover rounded"
               />
