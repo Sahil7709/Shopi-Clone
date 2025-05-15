@@ -48,7 +48,7 @@ const MyAccount = () => {
             <div className="text-center mb-6">
               {user.photoURL ? (
                 <img
-                  src={user.photoURL}
+                  src={user.images}
                   alt="Profile"
                   className="w-24 h-24 rounded-full mx-auto mb-4"
                 />
